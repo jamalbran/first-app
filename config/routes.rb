@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'pages/three'
   get 'pages/one'
   get 'pages/two'
   root 'pages#one'
